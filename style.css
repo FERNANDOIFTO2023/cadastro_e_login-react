@@ -1,0 +1,149 @@
+/*pagina do cadastro*/
+
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans',sans-serif;
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+.main-cadastro{
+    width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
+    height: 100vh; /*vh(viewport-heigth)*/
+    background: #08001a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado_esquerdo{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lado_esquerdo > h1{
+    color: rgb(0, 255, 115);
+}
+
+.imagem_esqueda{
+    width: 35vw;
+}
+
+.lado_direito{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_cadastro{
+    width: 60%; /*ao usar %, ele usa somente o tamanho da div em questão*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px; /*padding é a margem de dentro, o primeiro numero se refere ao eixo Y, e o segundo ao eixo X*/
+    background: #0f072e;
+    border-radius: 25px;
+    box-shadow: 0px 10px 30px #00000057;
+}
+
+.card_cadastro > h1{
+    color: rgb(4, 212, 98);
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfild > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px; /*ao colocar somente um valor, ele vai servir tanto para o eixo X, quanto para o eixo Y*/
+    background: #382d6957;
+    color: rgb(190, 255, 217); /*cor do input*/
+    font-size: 12pt;
+    box-shadow: 0px 10px 30px #0000003b;
+    outline: none; /*ao passar o mause por cima do input, não ira criar mais aquela "caixa de seleção"*/
+    box-sizing: border-box; /*para corrigir a borda que estava passando do limite da div*/
+}
+
+.textfild > label{
+    color: aliceblue;
+    margin: 10px 0px;
+}
+
+.textfild > input::placeholder{
+    color: #524f7c;
+}
+
+.btn-cadastro{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #0f072e;
+    background: #04d462;
+    cursor: pointer;
+    box-shadow: 0px 5px 40px -10px  rgba(4, 212, 98, 0.5);
+}
+
+
+.jafezcadastro{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 950px){/*estou dizendo para o CSS que enquanto for na tela uma largura de 950px, adicione os elementos que estão aqui*/ 
+    .card_cadastro{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main-cadastro{
+        flex-direction: column;
+    }
+
+    .lado_esquerdo > h1{
+        display: none;
+    }
+
+    .lado_esquerdo{
+        width: 100%;
+        height: auto;
+    }
+
+    .lado_direito{
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem_esqueda{
+        width: 50vw;
+    }
+
+    .card_cadastro{
+        width: 90%;
+    }
+}
