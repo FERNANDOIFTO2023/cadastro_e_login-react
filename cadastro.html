@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--LINKS-->
     <link rel="stylesheet" href="style.css">
-    <title>cadastro</title>
+    <link rel="stylesheet" href="main.js">
+    <title>CADASTRO</title>
 </head>
 <body>
 
@@ -27,18 +28,18 @@
                 <h1>CADASTRO</h1>
 
 <!--area do usuário-->
-                <div class="textfild">
+                <div class="textfild" id="cadastro">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="usuário">
+                    <input type="text" name="usuario" placeholder="usuário" id="usuario" required>
                     <label for="usuario">Email</label>
-                    <input type="email" name="email" placeholder="email">
+                    <input type="email" name="email" placeholder="email" id="email" required>
                 </div>
 <!--area da senha-->
                 <div class="textfild">
                     <label for="usuario">Senha</label>
-                    <input type="password" name="senha" placeholder="crie uma senha">
+                    <input type="password" name="senha" placeholder="crie uma senha" id="senha" required>
                     <label for="usuario">Confirmar senha</label>
-                    <input type="password" name="confirmar_senha" placeholder="confirme a senha">
+                    <input type="password" name="confirmar_senha" placeholder="confirme a senha" id="confirmar_senha" required>
                 </div>
                 <button class="btn-cadastro"></a>Cadastrar</button>
                 <div class="perguntas_cadastro">
@@ -49,5 +50,6 @@
             </div>
         </div>
     </div>
+    
 </body>
 </html>
