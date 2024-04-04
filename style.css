@@ -138,13 +138,17 @@ body *{
 }
 
 .não_fez_cadastro{
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .recuperar_senha{
     margin-left: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
                                             /*RESPONSIVIDADE*/
