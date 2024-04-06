@@ -45,7 +45,7 @@ body *{
 }
 
 .card_cadastro{
-    width: 60%; /*ao usar %, ele usa somente o tamanho da div em questão*/
+    width: 70%; /*ao usar %, ele usa somente o tamanho da div em questão*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,11 +138,11 @@ body *{
 }
 
 .não_fez_cadastro{
-    margin-left: 50px;
+    margin-left: 35px;
 }
 
 .recuperar_senha{
-    margin-left: 10px;
+    margin-right: 20px;
 }
 
 a{
