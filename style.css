@@ -138,11 +138,12 @@ body *{
 }
 
 .não_fez_cadastro{
-    margin-left: 35px;
+    margin-left: 80px;
 }
 
 .recuperar_senha{
-    margin-right: 20px;
+    margin-right: 80px;
+    margin-left: 15px;
 }
 
 a{
