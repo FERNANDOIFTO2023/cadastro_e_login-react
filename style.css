@@ -117,7 +117,7 @@ body *{
 
 .btn-login{
     width: 100%;
-    padding: 16px 0px;
+    padding: 4px 0px;
     margin: 15px 0px;
     border: none;
     border-radius: 8px;
@@ -141,9 +141,13 @@ body *{
     margin-left: 80px;
 }
 
+.não_fez_cadastro1{
+    margin-left: 60px;
+}
+
 .recuperar_senha{
     margin-right: 80px;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 a{
