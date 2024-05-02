@@ -188,12 +188,77 @@ a:hover{
     display: flex;
 }
 
+.main-cadastro2{
+    width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
+    height: 100vh; /*vh(viewport-heigth)*/
+    background: #08001a;
+    display: flex;
+}
 
+.navegação{
+    display: flex;
+    position: relative;
+    top: 30px; left: 30px;
+}
 
+.navegação a{
+    color:var(#04d462);
+    font-size: var('poppins', sans-serif);
+    font-weight: 600;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
 
+.navegação a:hover{
+    color: var(#04d462);
+}
 
+.logo{
+    position: relative;
+    top: 40px; left: 40px;
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: bold;
+}
 
+.logo i{
+    color: var(--main-color);
+    font-size: 32px;
+    margin-right: 5px;    
+}
 
+#menu{
+    font-size: 35px;
+    color: #04d462;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    color: #04d462;
+}
+
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+    position: static; /* Garante que o posicionamento absoluto do logotipo seja em relação a este contêiner */
+    width: 100%;
+    color: var(#04d462);
+}
+
+.header-icons i:hover{
+    transform: translateY(-7px);
+    color: var(#04d462);
+}
+
+.selection {
+    padding: 0 15%;
+
+}
 
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
