@@ -188,12 +188,70 @@ a:hover{
     display: flex;
 }
 
+.main-cadastro2{
+    width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
+    height: 100vh; /*vh(viewport-heigth)*/
+    background: #08001a;
+    display: flex;
+}
+
+.logo{
+    position: relative; /* Posicionamento absoluto em relação ao contêiner pai */
+    top: 25px; /* Distância do topo */
+    left: 30px; 
+    align-items: start;
+    color: var(--text-color);
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.logo i{
+    color: var(--main-color);
+    font-size: 32px;
+    margin-right: 5px;    
+}
 
 
+.navegação{
+    display: flex;
+}
+
+.navegação a{
+    color:var(#04d462);
+    font-size: var('poppins', sans-serif);
+    font-weight: 600;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.navegação a:hover{
+    color: var(#04d462);
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    font-size: 35px;
+    color: var(#04d462);
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
 
 
-
-
+.header-icons i:hover{
+    transform: translateY(-7px);
+    color: var(#04d462);
+}
 
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
