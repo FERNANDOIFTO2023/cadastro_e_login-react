@@ -1,0 +1,24 @@
+{
+    "livePreview.customExternalBrowser": "Chrome",
+    "livePreview.openPreviewTarget": "External Browser",
+    "liveServer.settings.https": {
+        "enable": true
+    },
+    "liveServer.settings.ignoreFiles": [
+
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.ts"
+    ],
+    "liveServer.settings.NoBrowser": true,
+    "liveServer.settings.useWebExt": true,
+    "liveshare.accessibility.accessibilityFeaturesEnabled": "on",
+    "liveshare.allowGuestDebugControl": true,
+    "liveshare.allowGuestTaskControl": true,
+    "liveshare.alwaysFollowHost": true,
+    "liveshare.anonymousGuestApproval": "accept",
+    "liveshare.autoShareTerminals": false,
+    "liveshare.languages.allowGuestCommandControl": true,
+    "liveshare.notebooks.allowGuestExecuteCells": true
+}
