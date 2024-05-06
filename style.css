@@ -181,11 +181,16 @@ a:hover{
                                              /*(INDEX)*/
 /**//**//**//**//**//**//**//**//**//**//**//*//**//***//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
-.main-cadastro1{
-    width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
-    height: 100vh; /*vh(viewport-heigth)*/
-    background: #08001a;
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
     display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 30px;
 }
 
 .main-cadastro2{
@@ -194,111 +199,19 @@ a:hover{
     background: #08001a;
     display: flex;
 }
-
 .navegação{
     display: flex;
-    position: relative;
-    top: 30px; left: 30px;
 }
-
 .navegação a{
-    color:var(#04d462);
-    font-size: var('poppins', sans-serif);
-    font-weight: 600;
+    color:#fff;;
+    font-weight: 500;
     margin: 0 30px;
-    transition: a .55s ease;
 }
 
 .navegação a:hover{
-    color: var(#04d462);
+    color:#04d462;
 }
 
-.logo{
-    position: relative;
-    top: 40px; left: 40px;
-    color: var(--text-color);
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.logo i{
-    color: var(--main-color);
-    font-size: 32px;
-    margin-right: 5px;    
-}
-
-#menu{
-    font-size: 35px;
-    color: #04d462;
-    z-index: 10001;
-    cursor: pointer;
-}
-
-.header-icons{
-    display: flex;
-    align-items: center;
-    color: #04d462;
-}
-
-.header-icons i{
-    margin-right: 25px;
-    font-size: 28px;
-    cursor: pointer;
-    transition: all .5s ease;
-    position: static; /* Garante que o posicionamento absoluto do logotipo seja em relação a este contêiner */
-    width: 100%;
-    color: var(#04d462);
-}
-
-.header-icons i:hover{
-    transform: translateY(-7px);
-    color: var(#04d462);
-}
-
-.selection {
-    padding: 0 15%;
-
-}
-
-
-/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
-                                            /*RESPONSIVIDADE*/
-/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
-
-
-
-@media only screen and (max-width: 950px){/*estou dizendo para o CSS que enquanto for na tela uma largura de 950px, adicione os elementos que estão aqui*/ 
-    .card_cadastro{
-        width: 85%;
-    }
-}
-@media only screen and (max-width: 600px){
-    .main-cadastro{
-        flex-direction: column;
-    }
-
-    .lado_esquerdo > h1{
-        display: none;
-    }
-
-    .lado_esquerdo{
-        width: 100%;
-        height: auto;
-    }
-
-    .lado_direito{
-        width: 100%;
-        height: auto;
-    }
-
-    .imagem_esqueda{
-        width: 50vw;
-    }
-
-    .card_cadastro{
-        width: 90%;
-    }
-}
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
                                              /*(vendedor_desativar)*/
@@ -314,6 +227,8 @@ h1 {
     background: #08001a;
     color:white
 }
+
+
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
                                              /*(vendedor_editar)*/
