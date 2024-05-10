@@ -199,19 +199,16 @@ header{
     background: #08001a;
     display: flex;
 }
-ul{
-    list-style-type:none;
-}
 
 #a1{
     text-decoration: none;
 }
 #header_index{
-    background:#524f7c;
+    background:#0f072e;
 }
 .navegacao{
     display: flex;
-    text-decoration: none;
+    list-style-type:none;
 }
 .navegacao a{
     color:#fff;;
