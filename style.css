@@ -265,6 +265,7 @@ h1 {
     background: #08001a;
     color:white
 }
+<<<<<<< Updated upstream
 #tabproduto{
 <<<<<<< Updated upstream
     color: rgb(0, 255, 115);
@@ -285,4 +286,17 @@ h1 {
 >>>>>>> Stashed changes
 
     
+=======
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+                                             /*(forma_pagamento)*/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.pagamento {
+    color: rgb(0, 255, 115);
+    width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
+    height: 100vh; /*vh(viewport-heigth)*/
+    background: #08001a;
+    display: flow-root;
+>>>>>>> Stashed changes
 }
