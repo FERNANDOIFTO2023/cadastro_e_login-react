@@ -199,19 +199,16 @@ header{
     background: #08001a;
     display: flex;
 }
-ul{
-    list-style-type:none;
-}
 
 #a1{
     text-decoration: none;
 }
 #header_index{
-    background:#524f7c;
+    background:#0f072e;
 }
 .navegacao{
     display: flex;
-    text-decoration: none;
+    list-style-type:none;
 }
 .navegacao a{
     color:#fff;;
@@ -265,17 +262,15 @@ h1 {
     background: #08001a;
     color:white
 }
-#tabproduto{
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+                                             /*(forma_pagamento)*/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.pagamento {
     color: rgb(0, 255, 115);
-    width: 100%;
-    padding: 10px 0px;
-    margin: 10px 0px;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 2px;
-    cursor: pointer;
-    box-shadow: 0px 5px 40px -10px  rgba(4, 212, 98, 0.5);    
+    width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
+    height: 100vh; /*vh(viewport-heigth)*/
+    background: #08001a;
+    display: flow-root;
 }
