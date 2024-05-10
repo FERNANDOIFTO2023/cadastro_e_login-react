@@ -181,59 +181,37 @@ a:hover{
                                              /*(INDEX)*/
 /**//**//**//**//**//**//**//**//**//**//**//*//**//***//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
-.main-cadastro1{
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 30px;
+}
+
+.main-cadastro2{
     width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
     height: 100vh; /*vh(viewport-heigth)*/
     background: #08001a;
     display: flex;
 }
-
-
-
-
-
-
-
-
-
-/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
-                                            /*RESPONSIVIDADE*/
-/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
-
-
-
-@media only screen and (max-width: 950px){/*estou dizendo para o CSS que enquanto for na tela uma largura de 950px, adicione os elementos que estão aqui*/ 
-    .card_cadastro{
-        width: 85%;
-    }
+.navegação{
+    display: flex;
 }
-@media only screen and (max-width: 600px){
-    .main-cadastro{
-        flex-direction: column;
-    }
-
-    .lado_esquerdo > h1{
-        display: none;
-    }
-
-    .lado_esquerdo{
-        width: 100%;
-        height: auto;
-    }
-
-    .lado_direito{
-        width: 100%;
-        height: auto;
-    }
-
-    .imagem_esqueda{
-        width: 50vw;
-    }
-
-    .card_cadastro{
-        width: 90%;
-    }
+.navegação a{
+    color:#fff;;
+    font-weight: 500;
+    margin: 0 30px;
 }
+
+.navegação a:hover{
+    color:#04d462;
+}
+
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
                                              /*(vendedor_desativar)*/
@@ -249,6 +227,8 @@ h1 {
     background: #08001a;
     color:white
 }
+
+
 
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
                                              /*(vendedor_editar)*/
