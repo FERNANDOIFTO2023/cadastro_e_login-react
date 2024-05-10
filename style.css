@@ -241,3 +241,15 @@ h1 {
     background: #08001a;
     display: flow-root;
 }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+                                             /*(cadastro_produto)*/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.cadastro-produto{
+    color: rgb(0, 255, 115);
+    width: 150vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
+    height: 150vh; /*vh(viewport-heigth)*/
+    background: #08001a;
+    color:white
+}
