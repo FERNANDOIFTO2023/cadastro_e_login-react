@@ -1,79 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>TechConnect_Cadastro</title>
-        <meta charset='uft-8'>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-<body id="itens">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechConnect_Cadastro</title>
+</head>
+
+<body>
 
     <div class="cadastro-produto">
-        <nav id='produto' >
+        <nav id='produto'>
             <a href="index.html">Home</a>
             <a href="login.html">Login</a>
             <a href="Cadastro.html">Cadastro</a><br><br>
-            
         </nav>
-
 
         <h2>Cadastro</h2>
 
-    <form action="cadastro_produto.html" method="post">
+        <form action="cadastro_produto.html" method="post">
 
-        <fieldset id="tabproduto">
-            <legend>Cadastrar produto</legend>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="name" required><br>
-            <label for="Preco">Preço:</label>
-            <input type="number" id="number" required>
-            <section>
+            <fieldset id="tabproduto">
+                <legend>Cadastrar produto</legend>
 
-                <div>
-                    <strong>
-                        <dl>Descrição</dl>
-                    </strong>
-                
-            <label for="nome">Marca:</label>
-            <input type="text" id="nome" name="name" required>
-            <br>
-            <label for="Tela">Tamanho de Tela:</label>
-            <input type="text" id="nome" required><br>
-            <label for="Disco">Tamanho do disco rígido:</label>
-            <input type="text" id="nome" name="name" required><br>
-            <label for="Preco">Sistema operacional:</label>
-            <input type="nome" id="nome" required><br>
-            <label for="Resolucao">Resolução: </label>
-            <input type="text" id="nome" name="name" required><br>
-            <label for="Tela">Tamanho de Tela:</label>
-            <input type="text" id="nome" required><br>
-            <label for="Tela">Peso do produto:</label>
-            <input type="text" id="nome" required><br>
-            <label for="Tela"> Conectividade:</label>
-            <input type="text" id="nome" required><br>
+                <section class="card_cadastro">
+                    <div class="textfild">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="name" required><br>
+        
+                        <label for="Preco">Preço:</label>
+                        <input type="number" id="number" required>
 
+                        <strong>
+                            <dl>Descrição</dl>
+                        </strong>
 
-
-                </div>
-            </section><br>
-            <button type="submit" href="index.html">Enviar produto</button>
-            <button type="reset">Excluir produto</button>
-
-
-
-
-
-
-
-        </fieldset>
-
-
-
-
-    </form>
-
-
-
+                        <label for="nome">Marca:</label>
+                        <input type="text" id="nome" name="name" required class="textfild"><br>
+                        
+                        <label for="Tela">Tamanho de Tela:</label>
+                        <input type="text" id="nome" required><br>
+                        
+                        <label for="Disco">Tamanho do disco rígido:</label>
+                        <input type="text" id="nome" name="name" required><br>
+                        
+                        <label for="Preco">Sistema operacional:</label>
+                        <input type="nome" id="nome" required><br>
+                        
+                        <label for="Resolucao">Resolução: </label>
+                        <input type="text" id="nome" name="name" required><br>
+                        
+                        <label for="Tela">Tamanho de Tela:</label>
+                        <input type="text" id="nome" required><br>
+                        
+                        <label for="Tela">Peso do produto:</label>
+                        <input type="text" id="nome" required><br>
+                        <label for="Tela"> Conectividade:</label>
+                        <input type="text" id="nome" required><br>
+                    </div>
+                </section><br>
+                <button type="submit" href="index.html" class="btn-cadastro">Enviar produto</button>
+                <button type="reset" class="btn-cadastro">Excluir produto</button>
+            </fieldset>
+        </form>
+    </div>
 </body>
-
 </html>
