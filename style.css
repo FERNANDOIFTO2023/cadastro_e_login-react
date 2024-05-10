@@ -266,6 +266,7 @@ h1 {
     color:white
 }
 #tabproduto{
+<<<<<<< Updated upstream
     color: rgb(0, 255, 115);
     width: 100%;
     padding: 10px 0px;
@@ -278,6 +279,10 @@ h1 {
     letter-spacing: 2px;
     cursor: pointer;
     box-shadow: 0px 5px 40px -10px  rgba(4, 212, 98, 0.5);
+=======
+    color: ;
+}
+>>>>>>> Stashed changes
 
     
 }
