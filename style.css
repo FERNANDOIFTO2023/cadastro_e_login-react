@@ -290,3 +290,29 @@ h1 {
     background: #08001a;
     display: flow-root;
 }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+                                             /*(rastreamento)*/
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.rastreamento {
+    color: rgb(0, 255, 115);
+    width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
+    height: 100vh; /*vh(viewport-heigth)*/
+    background: #08001a;
+    display: flow-root;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:  rgb(0, 255, 115);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
