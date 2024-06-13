@@ -330,6 +330,7 @@ ul {
     gap: 10px;
   }
   
+
   .legal {
     font-size: 12px;
     margin: 0;
@@ -436,7 +437,9 @@ h1 {
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
                                              /*(rastreamento)*/
 /**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
-
+#rastrear_name{
+  margin-left: 10px;
+}
 .rastreamento {
     color: rgb(0, 255, 115);
     width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
@@ -445,18 +448,31 @@ h1 {
     display: flow-root;
 }
 
-input[type="text"] {
+#orderNumber{
     width: 80%;
-    padding: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px; /*ao colocar somente um valor, ele vai servir tanto para o eixo X, quanto para o eixo Y*/
+    background: #382d6957;
+    color: rgb(190, 255, 217); /*cor do input*/
+    font-size: 12pt;
+    box-shadow: 0px 10px 30px #0000003b;
+    outline: none; /*ao passar o mause por cima do input, não ira criar mais aquela "caixa de seleção"*/
+    box-sizing: border-box; /*para corrigir a borda que estava passando do limite da div*/
+
 }
 
 button {
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color:  rgb(0, 255, 115);
     color: black;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px #0000003b;
 }
 
 TESTE
