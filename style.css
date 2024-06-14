@@ -184,10 +184,66 @@ a:hover{
                                              /*(INDEX)*/
 /**//**//**//**//**//**//**//**//**//**//**//*//**//***//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
 
+img
+{
+  border: none;
+}
+
 .main-cadastro2{
     width: 100vw; /* vw(viewport-width): porcentagem da largura da viewport(tela)  / 100vh --> 1000px */
     height: 100vh; /*vh(viewport-heigth)*/
     background: #08001a;
+}
+
+.carousel {
+  position: relative;
+  max-width: 50%;
+  margin: 20px auto;
+  overflow: hidden;
+  border: none;
+  /*1px solid  #19034d;*/
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  border:none;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  border: none;
+}
+
+.carousel-slide img {
+  width: 100%;
+  display: block;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-slide h2, .carousel-slide p {
+  text-align: center;
+  margin: 10px 0;
 }
 
 ul {
@@ -212,7 +268,7 @@ ul {
   }
   
   nav span {
-    color: #fff;
+    color:#04d462;
     font-size: 20px;
   }
   
