@@ -284,12 +284,19 @@ ul {
   .menu {
     margin: 0;
     padding: 0;
-    display: flexbox;
+    display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
   
   }
   
+  .imagem_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 13%;
+  }
   .slider-container {
     position: relative;
     max-width: 100%;
