@@ -218,7 +218,7 @@ img
 
 .carousel-slide img {
   width: 100%;
-  display: block;
+display:none;
 }
 
 .carousel-button {
@@ -282,9 +282,53 @@ ul {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    height: 70px;
+  
   }
   
+  .slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider-btn.prev {
+    left: 10px;
+}
+
+.slider-btn.next {
+    right: 10px;
+}
+
   .menu li {
     display: inline-block;
     width: 80px;
