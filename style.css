@@ -275,7 +275,9 @@ ul {
   a {
     cursor: pointer;
   }
-  
+  .fundo{
+    background-color: #08001a;
+  }
   .btn-voltar{
     display: flex;
   }
