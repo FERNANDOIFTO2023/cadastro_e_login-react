@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Visualização de Produtos</title>
 
 </head>
@@ -14,9 +15,39 @@
         <h1>Rastreamento de Compra</h1>
         <input type="text" id="orderNumber" placeholder="Digite o número do pedido">
         <button onclick="trackOrder()">Rastrear</button>
-        <div id="result"></div>
 
-        <script src="script.js"></script>
+
+        <main>
+            <section class="carousel">
+                <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+                <div class="carousel-container">
+                    <div class="carousel-slide active">
+                        <img src="img/img4.jpg" alt="Produto 1">
+                        <h2>Notebook Gamer Acer Nitro 5</h2>
+                        <p>Descrição:Notebook Gamer Acer Nitro 5, Intel Core I5, 8GB Gtx 1650, 512Gb Ssd 17.3" W11 Home Preto - An517-54-55t5.</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/avell.png"Produto 2">
+                        <h2>Notebook avell strom</h2>
+                        <p>Processador Intel Core i5-13420H de 13° Geração série H (High Edition) com 8 núcleos
+                            Tela 15.6”, IPS com resolução Full HD, taxa de atualização 144Hz
+                            GPU Nvidia GeForce RTX 3050 com 6GB de memória dedicada GDDR6 com eficiência total (TGP) de até 80W
+                            Eficiência térmica de 2 ventoinhas com modos variados de rotação
+                            Memória RAM DDR5</p>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="img/download.jfif" alt="Produto 3">
+                        <h2>Dell G15 Gamer</h2>
+                        <p>Bolo branco com rosas nas cores branco, vermelho e rosa</p>
+                    </div>
+                </div>
+                <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+            </section>
+        </main>
+
+        <!--
+
+        
 
         <div class="container">
 
@@ -29,9 +60,9 @@
 
                         <div class="product-details">
                             <h2 a href="forma_de_pagamento.html">Notebook </h2>
-                            <p>Descrição:Notebook Gamer Acer Nitro 5, Intel Core I5, 8GB Gtx 1650, 512Gb Ssd 17.3" W11
-                                Home
-                                Preto - An517-54-55t5.</p>
+                            <p>
+                                Descrição:Notebook Gamer Acer Nitro 5, Intel Core I5, 8GB Gtx 1650, 512Gb Ssd 17.3" W11 Home Preto - An517-54-55t5.
+                            </p>
                             <span class="product-price">R$ 5.639,89</span>
                         </div>
                 </div>
@@ -62,7 +93,7 @@
             <button type="reset" class="btn-cadastro">Excluir produto</button>
 
         </div>
-
+-->
 
 </body>
 
