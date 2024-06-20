@@ -279,7 +279,7 @@ ul {
   .menu {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: stretch;
   
@@ -288,6 +288,7 @@ ul {
   .slider-container {
     position: relative;
     max-width: 100%;
+    display: none;
     margin: 20px auto;
     overflow: hidden;
 }
